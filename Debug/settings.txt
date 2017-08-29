@@ -1,0 +1,2 @@
+Fullscreen: false
+Resolution: 640 480

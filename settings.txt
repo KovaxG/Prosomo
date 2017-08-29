@@ -1,0 +1,2 @@
+Fullscreen: true
+Resolution: 640 480

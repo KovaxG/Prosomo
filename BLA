@@ -1,0 +1,61 @@
+Csinald meg hatekonyabbra!
+
+Az Inventory!
+
+struct INV{
+	int meat;
+	int apple;
+	int sword;
+	int pick;
+	int iron;
+	int gun;
+	int wood;
+	int axe;
+	int hammer;
+	int rock;
+	int sulf;
+	int helm;
+	int leather;
+	int larmor;
+	int iarmor;
+	int bullet;
+};
+
+mapMatrix:
+
+0 - Grass
+1 - Water
+2 - Tree
+3 - Apple Tree (0 apples)
+4 - Apple Tree (1 apples)
+5 - Apple Tree (2 apples)
+6 - Apple Tree (3 apples)
+7 - Apple Tree (4 apples)
+8 - Apple Tree (5 apples)
+9 - Rock
+10 - Bush (0 bogyo)
+11 - Bush (1 bogyo)
+12 - Bush (2 bogyo)
+13 - Bush (3 bogyo)
+14 - Bush (4 bogyo)
+15 - Iron Ore Stone
+22 - Cut Tree
+30 - House
+31 - Smithy
+
+LOG:
+A hazban lehet aludni es igy gyogyul a karakter.
+Azert kapsz egy errort ha kilepsz mert a classoknak a destructorai a deinitializeAllegroAndStuff() utan indulnak be, s mivel az allegro_exit()  mar volt ad error.
+Kene csinaljak egy destroyAllPics() alprogramot v valamit kitalaljak. Majd meglatom.
+
+Mesterseg: pap aki osszegyujti a sirkoveket s temetot keszit.
+Mesterseg: vadasz.
+Mesterseg:  
+
+Kobanyaszas + Vasbanyaszas! OK
+
+Indexeld a golyokat! OK
+
+Minimap - 
+Menu -
+GUI -
